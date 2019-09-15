@@ -11,12 +11,7 @@ import "github.com/spider-pigs/spiderlog"
 
 ## Usage
 
-There are four logging levels supported:
-
- * Debug
- * Info
- * Warning
- * Error
+There are four logging levels supported: `Debug`, `Info`, `Warning`, `Error`
 
 Here is an example of how to setup logging for a Google logging client.
 
