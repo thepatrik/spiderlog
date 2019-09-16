@@ -7,6 +7,6 @@ import (
 )
 
 func TestLogger(t *testing.T) {
-	logger := spiderlog.New(spiderlog.StdoutEnabled(false))
+	logger := spiderlog.New(spiderlog.StdoutEnabled(true))
 	logger.Info("you should not see this (with go test -v)")
 }
